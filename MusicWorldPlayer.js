@@ -458,7 +458,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Определяем тип страницы и загружаем соответствующие треки
     const currentPage = window.location.pathname;
     
-    if (currentPage.includes('MusicWorld.html') || currentPage === '/') {
+    if (currentPage.includes('index.html') || currentPage === '/') {
         // Главная страница
         musicPlayer.loadMainPageTracks();
     } else if (currentPage.includes('Eminem.html')) {
@@ -468,4 +468,5 @@ document.addEventListener('DOMContentLoaded', function() {
     } else if (currentPage.includes('Queen.html')) {
         musicPlayer.loadArtistTracks('Queen');
     }
+
 });
