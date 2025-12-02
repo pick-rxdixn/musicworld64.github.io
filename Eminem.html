@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Эминем - Легенда хип-хопа | Мир Музыки</title>
+    <link rel="stylesheet" href="MusicWorldStyle.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body class="artist-page">
+    <header>
+        <div class="logo">
+            <img src="загруженное.png" alt="Логотип Мир Музыки" width="150" height="150">
+            <h1 id="Topic1">Мир музыки</h1>
+        </div>
+
+        <div class="notifications">
+            <button class="notification-btn">
+                <span>Уведомления</span>
+                <span class="notification-badge">4</span>
+            </button>
+            
+            <div class="notification-list">
+                <div class="notification-header">
+                    <h3>Новые уведомления</h3>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-number">1</div>
+                    <div class="notification-content">
+                        <div class="notification-title">Новый релиз</div>
+                        <div class="notification-text">Miyagi & Andy Panda выпустили новый альбом</div>
+                    </div>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-number">2</div>
+                    <div class="notification-content">
+                        <div class="notification-title">Концерт</div>
+                        <div class="notification-text">Scriptonite выступит в вашем городе 15 декабря</div>
+                    </div>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-number">3</div>
+                    <div class="notification-content">
+                        <div class="notification-title">Чарты обновлены</div>
+                        <div class="notification-text">Обновились топ-10 песен этой недели</div>
+                    </div>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-number">4</div>
+                    <div class="notification-content">
+                        <div class="notification-title">Эксклюзив</div>
+                        <div class="notification-text">Доступно новое интервью с Lida</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <input type="checkbox" id="burger-toggle">
+        <label for="burger-toggle" class="burger-menu">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </label>
+
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="index.html" class="nav-btn btn-slide">Главная</a></li>
+                <li><a href="MusicWorldTops.html" class="nav-btn btn-slide">Топы</a></li>
+                <li><a href="MusicWorldArtists.html" class="nav-btn btn-slide">Артисты</a></li>
+                <li><a href="MusicWorldLinks.html" class="nav-btn btn-slide">Ссылки</a></li>
+                <li><a href="#Contact" class="nav-btn btn-slide">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="MusicWorldTops.html">Топы</a></li>
+                <li><a href="MusicWorldArtists.html">Артисты</a></li>
+                <li><a href="MusicWorldLinks.html">Ссылки</a></li>
+                <li><a href="#Contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основной контент страницы Эминема -->
+    <div class="main-content-wrapper">
+        <div class="content">
+            <section class="artist-detail-section">
+                <div class="artist-content-container">
+                    <!-- Заголовок и основная информация -->
+                    <div class="artist-header">
+                        <div class="artist-main-photo">
+                            <img src="images/8b970403-aad2-4bb2-bd7b-4e80a0444d40_1550769924526.jpg" alt="Эминем" class="artist-large-img">
+                        </div>
+                        <div class="artist-basic-info">
+                            <h2>Эминем</h2>
+                            <p class="artist-nickname">"Slim Shady"</p>
+                            <div class="artist-details">
+                                <div class="detail-item">
+                                    <span class="detail-label">Жанр:</span>
+                                    <span class="detail-value">Хип-хоп, Хардкор-рэп</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Страна:</span>
+                                    <span class="detail-value">США</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Годы активности:</span>
+                                    <span class="detail-value">1988-настоящее время</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Премии Грэмми:</span>
+                                    <span class="detail-value">15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Цитата -->
+                    <div class="artist-quote-section">
+                        <blockquote class="featured-quote">
+                            «Я ругаюсь на сцене не чтобы показать себя крутым… Впрочем, я крутой».
+                            <cite>Эминем</cite>
+                        </blockquote>
+                    </div>
+
+                    <!-- Информация об исполнителе -->
+                    <div class="artist-bio-section">
+                        <h3>Биография</h3>
+                        <div class="bio-content">
+                            <p>Маршалл Брюс Мэтерс III (род. 17 октября 1972), известный под сценическим псевдонимом Эминем и альтер-эго Slim Shady, - американский рэпер, автор песен и продюсер. Он является одним из самых коммерчески успешных и критически acclaimed исполнителей в истории хип-хопа.</p>
+                            
+                            <p>Получил мировое признание после выхода альбома "The Slim Shady LP" (1999), который выиграл Грэмми за лучший рэп-альбом. Его следующий альбом "The Marshall Mathers LP" (2000) стал самым быстро продаваемым сольным альбомом в истории США.</p>
+                            
+                            <div class="achievements">
+                                <h4>Ключевые достижения:</h4>
+                                <ul>
+                                    <li>Более 220 миллионов проданных записей по всему миру</li>
+                                    <li>15 премий Грэмми и 44 номинации</li>
+                                    <li>10 альбомов №1 в Billboard 200</li>
+                                    <li>Первый рэпер, получивший "Оскар" за лучшую песню</li>
+                                    <li>Включен в Зал славы рок-н-ролла в 2022 году</li>
+                                    <li>Самый продаваемый артист 2000-х годов</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Популярные песни -->
+                    <div class="popular-songs-section">
+                        <h3>Самые популярные песни</h3>
+                        <div class="songs-grid">
+                            <div class="song-item">
+                                <span class="song-number">1</span>
+                                <div class="song-info">
+                                    <span class="song-title">Lose Yourself</span>
+                                    <span class="song-album">8 Mile Soundtrack (2002)</span>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">2</span>
+                                <div class="song-info">
+                                    <span class="song-title">Without Me</span>
+                                    <span class="song-album">The Eminem Show (2002)</span>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">3</span>
+                                <div class="song-info">
+                                    <span class="song-title">The Real Slim Shady</span>
+                                    <span class="song-album">The Marshall Mathers LP (2000)</span>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">4</span>
+                                <div class="song-info">
+                                    <span class="song-title">Stan</span>
+                                    <span class="song-album">The Marshall Mathers LP (2000)</span>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">5</span>
+                                <div class="song-info">
+                                    <span class="song-title">Love The Way You Lie</span>
+                                    <span class="song-album">Recovery (2010)</span>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">6</span>
+                                <div class="song-info">
+                                    <span class="song-title">Not Afraid</span>
+                                    <span class="song-album">Recovery (2010)</span>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">7</span>
+                                <div class="song-info">
+                                    <span class="song-title">Rap God</span>
+                                    <span class="song-album">The Marshall Mathers LP 2 (2013)</span>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">8</span>
+                                <div class="song-info">
+                                    <span class="song-title">Mockingbird</span>
+                                    <span class="song-album">Encore (2004)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Клип -->
+                    <div class="video-section">
+                        <h3>Легендарный клип: Lose Yourself</h3>
+                        <div class="featured-video">
+                            <div class="video-wrapper">
+                                <iframe src="https://vkvideo.ru/video_ext.php?oid=156323498&id=171757002&autoplay=0" 
+                                    width="423" 
+                                    height="260"
+                                    title="Eminem - Lose Yourself" 
+                                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="video-description">
+                                <p>Клип "Lose Yourself" был записан для саундтрека к фильму "8 Миля", в котором Эминем сыграл главную роль. Песня получила "Оскар" за лучшую оригинальную песню, став первой рэп-композицией, удостоенной этой награды.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>© 2025 Разработчик: Курочкин Родион</p> 
+            <address>  
+                Номер мобильного телефона: <a href="tel:+7(900)800-90-90" id="Contact">+7(900)800-90-90</a>
+                <a href="mailto:sendemail@gmail.com">sendemail@gmail.com</a>
+                <a href="MusicWorld.html">Главная</a>
+            </address>
+        </div> 
+    </footer>
+        <!-- Музыкальный плеер -->
+    <div id="musicPlayer" class="music-player">
+        <div class="player-controls">
+            <div class="track-info">
+                <div class="track-title" id="currentTrackTitle">Выберите трек</div>
+                <div class="track-artist" id="currentTrackArtist">Артист</div>
+            </div>
+            
+            <div class="player-buttons">
+                <button id="prevBtn" class="player-btn">⏮</button>
+                <button id="playBtn" class="player-btn">▶️</button>
+                <button id="nextBtn" class="player-btn">⏭</button>
+            </div>
+            
+            <div class="progress-container">
+                <span id="currentTime">0:00</span>
+                <div class="progress-bar-container">
+                    <div id="progressBar" class="progress-bar"></div>
+                </div>
+                <span id="duration">0:00</span>
+            </div>
+            
+            <div class="volume-control">
+                <span class="volume-icon">🔊</span>
+                <input type="range" id="volumeSlider" min="0" max="100" value="50" class="volume-slider">
+            </div>
+            
+            <button id="closePlayer" class="close-btn">✕</button>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const burgerToggle = document.getElementById('burger-toggle');
+            const mobileNavLinks = document.querySelectorAll('.mobile-nav');
+          
+            mobileNavLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    burgerToggle.checked = false;
+                });
+            });
+        });
+    </script>
+    <script src="MusicWorldPlayer.js"></script>
+</body>
+</html>

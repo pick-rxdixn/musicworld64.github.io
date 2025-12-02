@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Полезные ссылки | Мир Музыки</title>
+    <link rel="stylesheet" href="MusicWorldStyle.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="загруженное.png" alt="Логотип Мир Музыки" width="150" height="150">
+            <h1 id="Topic1">Мир Музыки</h1>
+        </div>
+
+        <div class="notifications">
+            <button class="notification-btn">
+                <span>Уведомления</span>
+                <span class="notification-badge">4</span>
+            </button>
+            
+            <div class="notification-list">
+                <div class="notification-header">
+                    <h3>Новые уведомления</h3>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-number">1</div>
+                    <div class="notification-content">
+                        <div class="notification-title">Новый релиз</div>
+                        <div class="notification-text">Miyagi & Andy Panda выпустили новый альбом</div>
+                    </div>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-number">2</div>
+                    <div class="notification-content">
+                        <div class="notification-title">Концерт</div>
+                        <div class="notification-text">Scriptonite выступит в вашем городе 15 декабря</div>
+                    </div>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-number">3</div>
+                    <div class="notification-content">
+                        <div class="notification-title">Чарты обновлены</div>
+                        <div class="notification-text">Обновились топ-10 песен этой недели</div>
+                    </div>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-number">4</div>
+                    <div class="notification-content">
+                        <div class="notification-title">Эксклюзив</div>
+                        <div class="notification-text">Доступно новое интервью с Lida</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <input type="checkbox" id="burger-toggle">
+        <label for="burger-toggle" class="burger-menu">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </label>
+
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="MusicWorld.html" class="nav-btn btn-slide">Главная</a></li>
+                <li><a href="MusicWorldTops.html" class="nav-btn btn-slide">Топы</a></li>
+                <li><a href="MusicWorldArtists.html" class="nav-btn btn-slide">Артисты</a></li>
+                <li><a href="MusicWorldLinks.html" class="nav-btn btn-slide">Ссылки</a></li>
+                <li><a href="#Contact" class="nav-btn btn-slide">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="MusicWorld.html">Главная</a></li>
+                <li><a href="MusicWorldTops.html">Топы</a></li>
+                <li><a href="MusicWorldArtists.html">Артисты</a></li>
+                <li><a href="MusicWorldLinks.html">Ссылки</a></li>
+                <li><a href="#Contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основной контент страницы ссылок -->
+    <div class="main-content-wrapper">
+        <div class="content">
+            <section class="links-section">
+                <h2 id="Link">Полезные музыкальные ресурсы</h2>
+                <p class="section-description">Откройте для себя лучшие платформы для прослушивания музыки, открытия новых исполнителей и погружения в музыкальную культуру</p>
+                
+                <!-- Стриминговые сервисы -->
+                <div class="links-category">
+                    <div class="links-grid">
+                        <div class="link-card">
+                            <div class="link-logo">
+                                <img src="images/YandexMusic.jpg" alt="Яндекс.Музыка">
+                            </div>
+                            <div class="link-info">
+                                <h4>Яндекс.Музыка</h4>
+                                <p>Российский стриминговый сервис с огромной библиотекой русскоязычного контента</p>
+                                <a href="https://music.yandex.ru/" target="_blank" class="link-button">Перейти</a>
+                            </div>
+                        </div>
+                        <div class="link-card">
+                            <div class="link-logo">
+                                <img src="images/YouTubeMusic_Logo.png" alt="Ютуб Музыка">
+                            </div>
+                            <div class="link-info">
+                                <h4>YouTube Music</h4>
+                                <p>Крупнейшая платформа с музыкальными клипами, live выступлениями и официальными аудиозаписями</p>
+                                <a href="https://www.youtube.com/" target="_blank" class="link-button">Перейти</a>
+                            </div>
+                        </div>
+                        <div class="link-card">
+                            <div class="link-logo">
+                                <img src="images/Spotify.png" alt="Спотифай">
+                            </div>
+                            <div class="link-info">
+                                <h4>Spotify</h4>
+                                <p>Мировой лидер среди стриминговых сервисов с умными рекомендациями и плейлистами</p>
+                                <a href="https://www.spotify.com/" target="_blank" class="link-button">Перейти</a>
+                            </div>
+                        </div>
+                        <div class="link-card">
+                            <div class="link-logo">
+                                <img src="images/AppleMusic.png" alt="AppleMusic">
+                            </div>
+                            <div class="link-info">
+                                <h4>Apple Music</h4>
+                                <p>Премиум сервис от Apple с интеграцией в экосистему и эксклюзивным контентом</p>
+                                <a href="https://www.apple.com/apple-music/" target="_blank" class="link-button">Перейти</a>
+                            </div>
+                        </div>
+                        <div class="link-card">
+                            <div class="link-logo">
+                                <img src="images/soundcloud.png" alt="СоундКлауд">
+                            </div>
+                            <div class="link-info">
+                                <h4>SoundCloud</h4>
+                                <p>Платформа для независимых исполнителей, демо-версий и открытия новых талантов</p>
+                                <a href="https://soundcloud.com/" target="_blank" class="link-button">Перейти</a>
+                            </div>
+                        </div>
+                        <div class="link-card">
+                            <div class="link-logo">
+                                <img src="images/VkMusic.png" alt="Вк музыка">
+                            </div>
+                            <div class="link-info">
+                                <h4>VK Музыка</h4>
+                                <p>Социальная платформа с интеграцией музыки в мессенджер и социальную сеть</p>
+                                <a href="https://vk.com/music" target="_blank" class="link-button">Перейти</a>
+                            </div>
+                        </div>
+                        <div class="link-card">
+                            <div class="link-logo">
+                                <img src="images/AllMusic.png" alt="AllMusic">
+                            </div>
+                            <div class="link-info">
+                                <h4>AllMusic</h4>
+                                <p>Энциклопедия музыки с рецензиями, биографиями и рекомендациями</p>
+                                <a href="https://www.allmusic.com/" target="_blank" class="link-button">Перейти</a>
+                            </div>
+                        </div>
+                        <div class="link-card">
+                            <div class="link-logo">
+                                <div class="platform-logo musicmap">MusicMap</div>
+                            </div>
+                            <div class="link-info">
+                                <h4>MusicMap</h4>
+                                <p>Интерактивная карта музыкальных жанров и их взаимосвязей</p>
+                                <a href="https://musicmap.info/" target="_blank" class="link-button">Перейти</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>© 2025 Разработчик: Курочкин Родион</p> 
+            <address>  
+                Номер мобильного телефона: <a href="tel:+7(900)800-90-90" id="Contact">+7(900)800-90-90</a>
+                <a href="mailto:sendemail@gmail.com">sendemail@gmail.com</a>
+                <a href="MusicWorld.html">Главная</a>
+            </address>
+        </div> 
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const burgerToggle = document.getElementById('burger-toggle');
+            const mobileNavLinks = document.querySelectorAll('.mobile-nav');
+          
+            mobileNavLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    burgerToggle.checked = false;
+                });
+            });
+
+            // Добавляем подсветку при наведении на карточки ссылок
+            const linkCards = document.querySelectorAll('.link-card');
+            linkCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-5px)';
+                });
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queen - Легендарная рок-группа | Мир Музыки</title>
+    <link rel="stylesheet" href="MusicWorldStyle.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body class="artist-page">
+    <header>
+        <div class="logo">
+            <img src="загруженное.png" alt="Логотип Мир Музыки" width="150" height="150">
+            <h1 id="Topic1">Мир Музыки</h1>
+        </div>
+
+        <div class="notifications">
+            <button class="notification-btn">
+                <span>Уведомления</span>
+                <span class="notification-badge">4</span>
+            </button>
+            
+            <div class="notification-list">
+                <div class="notification-header">
+                    <h3>Новые уведомления</h3>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-number">1</div>
+                    <div class="notification-content">
+                        <div class="notification-title">Новый релиз</div>
+                        <div class="notification-text">Miyagi & Andy Panda выпустили новый альбом</div>
+                    </div>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-number">2</div>
+                    <div class="notification-content">
+                        <div class="notification-title">Концерт</div>
+                        <div class="notification-text">Scriptonite выступит в вашем городе 15 декабря</div>
+                    </div>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-number">3</div>
+                    <div class="notification-content">
+                        <div class="notification-title">Чарты обновлены</div>
+                        <div class="notification-text">Обновились топ-10 песен этой недели</div>
+                    </div>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-number">4</div>
+                    <div class="notification-content">
+                        <div class="notification-title">Эксклюзив</div>
+                        <div class="notification-text">Доступно новое интервью с Lida</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <input type="checkbox" id="burger-toggle">
+        <label for="burger-toggle" class="burger-menu">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </label>
+
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="MusicWorld.html" class="nav-btn btn-slide">Главная</a></li>
+                <li><a href="MusicWorldTops.html" class="nav-btn btn-slide">Топы</a></li>
+                <li><a href="MusicWorldArtists.html" class="nav-btn btn-slide">Артисты</a></li>
+                <li><a href="MusicWorldLinks.html" class="nav-btn btn-slide">Ссылки</a></li>
+                <li><a href="#Contact" class="nav-btn btn-slide">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="MusicWorld.html">Главная</a></li>
+                <li><a href="MusicWorldTops.html">Топы</a></li>
+                <li><a href="MusicWorldArtists.html">Артисты</a></li>
+                <li><a href="MusicWorldLinks.html">Ссылки</a></li>
+                <li><a href="#Contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основной контент страницы Queen -->
+    <div class="main-content-wrapper">
+        <div class="content">
+            <section class="artist-detail-section">
+                <div class="artist-content-container">
+                    <!-- Заголовок и основная информация -->
+                    <div class="artist-header">
+                        <div class="artist-main-photo">
+                            <img src="images/6daeebd40478cad265e61e8c80718a57.jpg" alt="Queen" class="artist-large-img">
+                        </div>
+                        <div class="artist-basic-info">
+                            <h2>Queen</h2>
+                            <p class="artist-nickname">"Короли стадионного рока"</p>
+                            <div class="artist-details">
+                                <div class="detail-item">
+                                    <span class="detail-label">Жанр:</span>
+                                    <span class="detail-value">Рок, Хард-рок, Глэм-рок</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Страна:</span>
+                                    <span class="detail-value">Великобритания</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Годы активности:</span>
+                                    <span class="detail-value">1970-настоящее время</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Премии:</span>
+                                    <span class="detail-value">4 Грэмми, BRIT Awards</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Состав:</span>
+                                    <span class="detail-value">Фредди Меркьюри, Брайан Мэй, Роджер Тейлор, Джон Дикон</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Цитата -->
+                    <div class="artist-quote-section">
+                        <blockquote class="featured-quote">
+                            «Чем больше у меня проблем, тем лучше мои песни»
+                            <cite>Фредди Меркьюри</cite>
+                        </blockquote>
+                    </div>
+
+                    <!-- Информация об исполнителе -->
+                    <div class="artist-bio-section">
+                        <h3>Биография</h3>
+                        <div class="bio-content">
+                            <p>Queen - британская рок-группа, добившаяся широчайшей известности в середине 1970-х годов. Одна из наиболее успешных групп в истории мировой музыки, оказавшая огромное влияние на развитие рока.</p>
+                            
+                            <p>Группа выпустила пятнадцать студийных альбомов, пять концертных и многочисленные сборники. Широкое признание получили новаторские работы Queen в области звукозаписи и видеоклипов.</p>
+                            
+                            <div class="band-members">
+                                <h4>Участники группы:</h4>
+                                <div class="members-grid">
+                                    <div class="member-card">
+                                        <h5>Фредди Меркьюри</h5>
+                                        <p>Вокал, фортепиано (1970-1991)</p>
+                                    </div>
+                                    <div class="member-card">
+                                        <h5>Брайан Мэй</h5>
+                                        <p>Гитара, вокал (1970-наст. время)</p>
+                                    </div>
+                                    <div class="member-card">
+                                        <h5>Роджер Тейлор</h5>
+                                        <p>Ударные, вокал (1970-наст. время)</p>
+                                    </div>
+                                    <div class="member-card">
+                                        <h5>Джон Дикон</h5>
+                                        <p>Бас-гитара (1971-1997)</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="achievements">
+                                <h4>Ключевые достижения:</h4>
+                                <ul>
+                                    <li>Более 300 миллионов проданных записей по всему миру</li>
+                                    <li>Включены в Зал славы рок-н-ролла в 2001 году</li>
+                                    <li>Альбом "Greatest Hits" - самый продаваемый в истории Великобритании</li>
+                                    <li>Выступление на Live Aid 1985 года признано величайшим рок-выступлением</li>
+                                    <li>Песня "Bohemian Rhapsody" провела в UK Singles Chart рекордные 9 недель на №1</li>
+                                    <li>Обладатели премии "Brit Award" за выдающийся вклад в музыку</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Популярные песни -->
+                    <div class="popular-songs-section">
+                        <h3>Самые популярные песни</h3>
+                        <div class="songs-grid">
+                            <div class="song-item">
+                                <span class="song-number">1</span>
+                                <div class="song-info">
+                                    <span class="song-title">Bohemian Rhapsody</span>
+                                    <span class="song-album">A Night at the Opera (1975)</span>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">2</span>
+                                <div class="song-info">
+                                    <span class="song-title">We Will Rock You</span>
+                                    <span class="song-album">News of the World (1977)</span>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">3</span>
+                                <div class="song-info">
+                                    <span class="song-title">We Are the Champions</span>
+                                    <span class="song-album">News of the World (1977)</span>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">4</span>
+                                <div class="song-info">
+                                    <span class="song-title">Another One Bites the Dust</span>
+                                    <span class="song-album">The Game (1980)</span>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">5</span>
+                                <div class="song-info">
+                                    <span class="song-title">Don't Stop Me Now</span>
+                                    <span class="song-album">Jazz (1978)</span>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">6</span>
+                                <div class="song-info">
+                                    <span class="song-title">Radio Ga Ga</span>
+                                    <span class="song-album">The Works (1984)</span>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">7</span>
+                                <div class="song-info">
+                                    <span class="song-title">Somebody to Love</span>
+                                    <span class="song-album">A Day at the Races (1976)</span>
+                                </div>
+                            </div>
+                            <div class="song-item">
+                                <span class="song-number">8</span>
+                                <div class="song-info">
+                                    <span class="song-title">I Want to Break Free</span>
+                                    <span class="song-album">The Works (1984)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Клип -->
+                    <div class="video-section">
+                        <h3>Легендарное выступление: Live Aid 1985</h3>
+                        <div class="featured-video">
+                            <div class="video-wrapper">
+                                <iframe src="https://vkvideo.ru/video_ext.php?oid=-107743428&id=456242186&autoplay=0" 
+                                        width="640" 
+                                        height="250" 
+                                        style="background-color: #000" 
+                                        allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" 
+                                        frameborder="0" 
+                                        allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="video-description">
+                                <p>Песня целиком написана Фредди Меркьюри (кроме гитарного соло Брайана Мэя). Меркьюри представлял себе песню как оперную сюиту, что было необычно для рок-музыки того времени.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>© 2025 Разработчик: Курочкин Родион</p> 
+            <address>  
+                Номер мобильного телефона: <a href="tel:+7(900)800-90-90" id="Contact">+7(900)800-90-90</a>
+                <a href="mailto:sendemail@gmail.com">sendemail@gmail.com</a>
+                <a href="MusicWorld.html">Главная</a>
+            </address>
+        </div> 
+    </footer>
+    <!-- Музыкальный плеер -->
+    <div id="musicPlayer" class="music-player">
+        <div class="player-controls">
+            <div class="track-info">
+                <div class="track-title" id="currentTrackTitle">Выберите трек</div>
+                <div class="track-artist" id="currentTrackArtist">Артист</div>
+            </div>
+            
+            <div class="player-buttons">
+                <button id="prevBtn" class="player-btn">⏮</button>
+                <button id="playBtn" class="player-btn">▶️</button>
+                <button id="nextBtn" class="player-btn">⏭</button>
+            </div>
+            
+            <div class="progress-container">
+                <span id="currentTime">0:00</span>
+                <div class="progress-bar-container">
+                    <div id="progressBar" class="progress-bar"></div>
+                </div>
+                <span id="duration">0:00</span>
+            </div>
+            
+            <div class="volume-control">
+                <span class="volume-icon">🔊</span>
+                <input type="range" id="volumeSlider" min="0" max="100" value="50" class="volume-slider">
+            </div>
+            
+            <button id="closePlayer" class="close-btn">✕</button>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const burgerToggle = document.getElementById('burger-toggle');
+            const mobileNavLinks = document.querySelectorAll('.mobile-nav');
+          
+            mobileNavLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    burgerToggle.checked = false;
+                });
+            });
+        });
+    </script>
+    <script src="MusicWorldPlayer.js"></script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир Музыки</title>
+    <link rel="stylesheet" href="C:\Users\kuroc\OneDrive\Desktop\HTML Практика\MusicWorldStyle.css">
+    <link rel="icon" href="C:\Users\kuroc\OneDrive\Desktop\HTML Практика\favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\kuroc\OneDrive\Desktop\HTML Практика\загруженное.png" alt="Логотип Мир Музыки" width="150" height="150">
+            <h1 id="Topic1">Мир Музыки</h1>
+        </div>
+
+        <div class="notifications">
+            <button class="notification-btn">
+                <span>Уведомления</span>
+                <span class="notification-badge">4</span>
+            </button>
+            
+            <div class="notification-list">
+                <div class="notification-header">
+                    <h3>Новые уведомления</h3>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-number">1</div>
+                    <div class="notification-content">
+                        <div class="notification-title">Новый релиз</div>
+                        <div class="notification-text">Miyagi & Andy Panda выпустили новый альбом</div>
+                    </div>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-number">2</div>
+                    <div class="notification-content">
+                        <div class="notification-title">Концерт</div>
+                        <div class="notification-text">Scriptonite выступит в вашем городе 15 декабря</div>
+                    </div>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-number">3</div>
+                    <div class="notification-content">
+                        <div class="notification-title">Чарты обновлены</div>
+                        <div class="notification-text">Обновились топ-10 песен этой недели</div>
+                    </div>
+                </div>
+                
+                <div class="notification-item">
+                    <div class="notification-number">4</div>
+                    <div class="notification-content">
+                        <div class="notification-title">Эксклюзив</div>
+                        <div class="notification-text">Доступно новое интервью с Lida</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <input type="checkbox" id="burger-toggle">
+        <label for="burger-toggle" class="burger-menu">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </label>
+
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="index.html" class="nav-btn btn-slide">Главная</a></li>
+                <li><a href="MusicWorldTops.html" class="nav-btn btn-slide">Топы</a></li>
+                <li><a href="MusicWorldArtists.html" class="nav-btn btn-slide">Артисты</a></li>
+                <li><a href="MusicWorldLinks.html" class="nav-btn btn-slide">Ссылки</a></li>
+                <li><a href="#Contact" class="nav-btn btn-slide">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="MusicWorldTops.html">Топы</a></li>
+                <li><a href="MusicWorldArtists.html">Артисты</a></li>
+                <li><a href="MusicWorldLinks.html">Ссылки</a></li>
+                <li><a href="#Contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="news-section">
+        <div class="news-container">
+            <h2>🎵 Новинки музыки</h2>
+            <div class="news-grid">
+                <div class="news-item">
+                    <span class="news-title">«Sorrow»</span>
+                    <span class="news-artist">plenka</span>
+                </div>
+                <div class="news-item">
+                    <span class="news-title">«Ромашковое поле»</span>
+                    <span class="news-artist">найтивыход</span>
+                </div>
+                <div class="news-item">
+                    <span class="news-title">«I'm so scared of night»</span>
+                    <span class="news-artist">sputnik</span>
+                </div>
+                <div class="news-item">
+                    <span class="news-title">«Одинокими»</span>
+                    <span class="news-artist">Андрей Катиков, ЛСП</span>
+                </div>
+                <div class="news-item">
+                    <span class="news-title">«Планета Земля»</span>
+                    <span class="news-artist">Noize MC</span>
+                </div>
+                <div class="news-item">
+                    <span class="news-title">«Дырки в штанах»</span>
+                    <span class="news-artist">madk1d</span>
+                </div>
+                <div class="news-item">
+                    <span class="news-title">«Пластырь»</span>
+                    <span class="news-artist">N.MASTEROFF, mzlff</span>
+                </div>
+                <div class="news-item">
+                    <span class="news-title">«Бессолнечный рассвет»</span>
+                    <span class="news-artist">ДЖЕЙЛО</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="main-content-wrapper">
+        <div id="main-content" class="tab-content active">
+            <div class="content">
+                <section class="welcome-section">
+                    <h2>Добро пожаловать в мир музыки!</h2>
+                    <p>Откройте для себя удивительный мир музыки - от классики до современных хитов. 
+                       Здесь вы найдете всё о ваших любимых исполнителях, новинках музыкальной индустрии 
+                       и актуальных чартах.</p>
+                </section>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>© 2025 Разработчик: Курочкин Родион</p> 
+            <address>  
+                Номер мобильного телефона: <a href="tel:+7(900)800-90-90" id="Contact">+7(900)800-90-90</a>
+                Адрес электронной почты: <a href="mailto:sendemail@gmail.com">sendemail@gmail.com</a>
+                <a href="#Topic1">Главная</a>
+            </address>
+        </div> 
+    </footer>
+        <!-- Музыкальный плеер -->
+    <div id="musicPlayer" class="music-player">
+        <div class="player-controls">
+            <div class="track-info">
+                <div class="track-title" id="currentTrackTitle">Выберите трек</div>
+                <div class="track-artist" id="currentTrackArtist">Артист</div>
+            </div>
+            
+            <div class="player-buttons">
+                <button id="prevBtn" class="player-btn">⏮</button>
+                <button id="playBtn" class="player-btn">▶️</button>
+                <button id="nextBtn" class="player-btn">⏭</button>
+            </div>
+            
+            <div class="progress-container">
+                <span id="currentTime">0:00</span>
+                <div class="progress-bar-container">
+                    <div id="progressBar" class="progress-bar"></div>
+                </div>
+                <span id="duration">0:00</span>
+            </div>
+            
+            <div class="volume-control">
+                <span class="volume-icon">🔊</span>
+                <input type="range" id="volumeSlider" min="0" max="100" value="50" class="volume-slider">
+            </div>
+            
+            <button id="closePlayer" class="close-btn">✕</button>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const burgerToggle = document.getElementById('burger-toggle');
+            const mobileNavLinks = document.querySelectorAll('.mobile-nav');
+          
+            mobileNavLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    burgerToggle.checked = false;
+                });
+            });
+
+            // Навигация по вкладкам
+            const tabLinks = document.querySelectorAll('.tab-link');
+            const tabContents = document.querySelectorAll('.tab-content');
+            
+            tabLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetTab = this.getAttribute('data-tab');
+                    
+                    // Скрываем все вкладки
+                    tabContents.forEach(tab => {
+                        tab.classList.remove('active');
+                    });
+                    
+                    // Показываем целевую вкладку
+                    const targetTabElement = document.getElementById(targetTab);
+                    if (targetTabElement) {
+                        targetTabElement.classList.add('active');
+                    }
+                    
+                    // Прокрутка к началу контента
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+            
+            // Активируем главную вкладку по умолчанию
+            document.getElementById('main-content').classList.add('active');
+        });
+    </script>
+    <script src="MusicWorldPlayer.js"></script>
+</body>
+</html>
